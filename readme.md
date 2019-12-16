@@ -56,3 +56,8 @@ ARGS:
 ## Contributing
 PR's welcome. Fork the library and submit to dev branch. 
 By contributing you agree to it being Apache 2.0 licensed
+
+#### Donations
+FCT: `FA2dJL4qbQimfkXjP7jREdm48AjPzdS8rcosfJisG2L465bs1ean`
+
+BTC: `3QP7yv9GSaY9sqbhBatbPrwkoQ4nfudvjP`
