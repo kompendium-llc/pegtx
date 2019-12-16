@@ -1,5 +1,8 @@
 # PegTX
 
+[![Crates.io](https://img.shields.io/crates/v/pegtx.svg)](https://crates.io/crates/pegtx)
+[![Discord](https://img.shields.io/discord/550312670528798755.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/V6T7mCW)
+
 PegTX is an accounting and monitoring tool for use with pegnet, given an address it will
 generate a csv report that can be imported into common spreadsheet and accounting software.
 By default it will search for all actions for that particular address, that includes
@@ -50,3 +53,7 @@ OPTIONS:
 ARGS:
     <address>    FCT address
 ```
+
+## Contributing
+PR's welcome. Fork the library and submit to dev branch. 
+By contributing you agree to it being Apache 2.0 licensed
