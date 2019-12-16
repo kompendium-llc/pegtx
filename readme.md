@@ -1,6 +1,7 @@
 # PegTX
 
 [![Crates.io](https://img.shields.io/crates/v/pegtx.svg)](https://crates.io/crates/pegtx)
+[![Build Status](https://travis-ci.com/kompendium-llc/pegtx.svg?branch=master)](https://travis-ci.com/kompendium-llc/pegtx)
 [![Discord](https://img.shields.io/discord/550312670528798755.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/V6T7mCW)
 
 PegTX is an accounting and monitoring tool for use with pegnet, given an address it will
@@ -9,8 +10,6 @@ By default it will search for all actions for that particular address, that incl
 transactions, conversions and burns. These can be searched individually or in any combination.
 
 ## Installation
-
-### Download
 
 Precompiled binaries can be found on the [releases page](https://github.com/kompendium-llc/pegtx/releases).
 
