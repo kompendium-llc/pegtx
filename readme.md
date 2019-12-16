@@ -21,15 +21,18 @@ cargo install pegtx
 
 ### Build from source
 ```shell
-git clone 
+git clone https://github.com/kompendium-llc/pegtx.git
 cargo build --release
 ```
 
 ## Usage
 
-Available commands can be found with `pegtx -h`
+All transaction types are included by default and they don't need to be specified. 
+For mining payouts only run with `-m`. To only include conversions and transfers 
+run with the flags `-ct`. Out of the box it uses a public node, this can be changed. 
+All available commands can be found with `pegtx -h`.
 
-```shell
+```text
 pegtx 0.1.0
 An accounting tool for use with pegnet
 
