@@ -35,6 +35,6 @@ deploy:
       branch: master
     file_glob: true
     file:
-      - target/release/pegtx*
+      - target/release/pegtx-*
     api_key:
       secure: $GHDEPLOY
