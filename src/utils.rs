@@ -34,4 +34,3 @@ pub fn csv_to_html(input: &str) -> String {
   s += "</td></tr>\n</table>";
   s
 }
-
