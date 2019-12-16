@@ -5,7 +5,7 @@ rust:
   - beta
   - nightly
 
-script: cargo build --release; cargo test
+script: cargo build --release; cargo test;
 
 matrix:
   allow_failures:
@@ -29,7 +29,7 @@ deploy:
       condition: "$TRAVIS_RUST_VERSION = stable && $TRAVIS_OS_NAME = linux"
       branch: master
     token:
-      secure: 
+      secure: $CARGODEPLOY
   - provider: releases
     skip_cleanup: true
     on:
@@ -40,4 +40,4 @@ deploy:
     file:
       - target/release/peg-tx-*
     api_key:
-      secure: 
+      secure: $GHDEPLOY
