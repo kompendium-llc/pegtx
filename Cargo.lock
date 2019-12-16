@@ -769,7 +769,7 @@ dependencies = [
 
 [[package]]
 name = "pegtx"
-version = "0.1.1"
+version = "0.1.4"
 dependencies = [
  "csv 1.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "indicatif 0.13.0 (registry+https://github.com/rust-lang/crates.io-index)",
