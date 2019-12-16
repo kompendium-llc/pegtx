@@ -1,0 +1,43 @@
+language: rust
+
+rust:
+  - stable
+  - beta
+  - nightly
+
+script: cargo build --release; cargo test
+
+matrix:
+  allow_failures:
+    - rust: nightly
+  fast_finish: true
+
+os:
+  - linux
+  - osx
+  - windows
+
+before_deploy:
+  - "if [[ -f target/release/peg-tx ]]; then mv target/release/peg-tx \"target/release/peg-tx-$TRAVIS_TAG-$TRAVIS_OS_NAME\"; fi"
+  - "if [[ -f target/release/peg-tx.exe ]]; then mv target/release/peg-tx.exe \"target/release/peg-tx-$TRAVIS_TAG-$TRAVIS_OS_NAME.exe\"; fi"
+
+deploy:
+  - provider: cargo
+    skip_cleanup: true
+    on:
+      tags: true
+      condition: "$TRAVIS_RUST_VERSION = stable && $TRAVIS_OS_NAME = linux"
+      branch: master
+    token:
+      secure: 
+  - provider: releases
+    skip_cleanup: true
+    on:
+      tags: true
+      condition: "$TRAVIS_RUST_VERSION = stable"
+      branch: master
+    file_glob: true
+    file:
+      - target/release/peg-tx-*
+    api_key:
+      secure: 

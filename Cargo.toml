@@ -1,5 +1,5 @@
 [package]
-name = "pAccounting"
+name = "pegtx"
 version = "0.1.0"
 authors = ["Mitchell <17392435+MitchellBerry@users.noreply.github.com>"]
 edition = "2018"
