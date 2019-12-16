@@ -12,7 +12,7 @@ transactions, conversions and burns. These can be searched individually or in an
 
 ### Download
 
-Precompiled binaries can be found on the [releases page]().
+Precompiled binaries can be found on the [releases page](https://github.com/kompendium-llc/pegtx/releases).
 
 ### Cargo
 
