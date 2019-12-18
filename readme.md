@@ -63,4 +63,4 @@ By contributing you agree to it being Apache 2.0 licensed
 #### Donations
 FCT: `FA2dJL4qbQimfkXjP7jREdm48AjPzdS8rcosfJisG2L465bs1ean`
 
-BTC: `3QP7yv9GSaY9sqbhBatbPrwkoQ4nfudvjP`
+BTC: `bc1qt0hcaf3w7mgms37zj4jdtaas42vpg9uhdwvm5e4tf2maj6yk6etqjdqqpg`
